@@ -15,6 +15,15 @@ npm i
 node app.js
 ```
 
+### Secret Environment Variables
+The ```.env.example``` looks like this by default:
+```shell
+SECRET_QUESTION=
+SECRET_ANSWER=
+```
+
+You will need a value for both ```SECRET_QUESTION``` and ```SECRET_ANSWER``` for this application to run properly.
+
 ### Contact
 Steven Brown
 smbrown1@student.fullsail.edu
