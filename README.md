@@ -15,6 +15,13 @@ npm i
 node app.js
 ```
 
+OR
+
+```shell
+npm i
+npm start
+```
+
 ### Secret Environment Variables
 The ```.env.example``` looks like this by default:
 ```shell
