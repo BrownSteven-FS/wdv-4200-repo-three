@@ -34,7 +34,7 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 
   rl.question(SECRET_QUESTION, () => {
-    console.log(`The meaning of life is: ${SECRET_ANSWER}`);
+    console.log(SECRET_ANSWER);
     rl.close();
   });
 });
